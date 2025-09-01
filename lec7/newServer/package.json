@@ -1,0 +1,11 @@
+{
+  "name": "newserver",
+  "version": "1.0.0",
+  "main": "index1.js",
+  "scripts": {
+    "start": "node index1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
