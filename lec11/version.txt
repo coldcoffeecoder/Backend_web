@@ -1,0 +1,50 @@
+version
+
+4.18.3
+
+1st part -> 4
+2nd -> 18
+3rd -> 2
+
+3rd part (last part) - minor fixes(optional)
+latest -> 4.18.5
+
+2nd part- recommended bug fix (security fix)
+latest-> 4.19.1
+
+3rd part release - major/ breaking update
+5
+
+express = ^4.18.2
+4th version
+
+^4.18.2  | 4.18.2 -> < 5.0.0 |
+
+^4.17.9
+^4.18.1
+^4.18.2
+^4.18.3
+^4.18.5
+^4.19.1
+
+5.1.0 -> will not update 
+
+^-> install all recommended and minor fixes auatomatically
+
+if we use ~ then
+
+we can update the only 3rd part
+~4.18.1
+~4.18.2
+~4.18.3
+~4.18.4
+
+4.19.1-> no
+
+->we can use ranges also
+4.0.0 - 4.18.3
+
+we can also write like this
+4.18.x 
+
+we can also write this ->"latest" //it will download the latest version-> which is not the good thing , never use latest
