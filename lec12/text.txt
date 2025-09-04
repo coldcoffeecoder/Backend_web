@@ -1,0 +1,27 @@
+RESTFULL API or REST API 
+->both are same
+
+basically a representational state of any API which has some types, 
+some rules-> best practices that we should follow.
+
+communication of sever and client -> basically
+
+req and res -> these are some rules or best practices that these should follow and 
+the rules or standards or best practices are given by RESTFULL API 
+
+server ->/<- client {technically it can be anything. for ex: mobile, alexa etc}
+
+
+-> always respect all http methods
+GET POST PUT PATCH DELETE
+
+GET/user = read user data and return detail
+
+POST/user = handle new user creation
+
+PATCH/user = partially update user 
+
+DELETE- delete user
+
+PUT/user -> update or create if not exsit
+
