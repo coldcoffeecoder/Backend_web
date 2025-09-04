@@ -1,6 +1,6 @@
 const express = require("express");
 const users = require("./MOCK_DATA.json");
-const { status } = require("server/reply");
+
 const app = express();
 const PORT = 8000;
 
@@ -61,6 +61,7 @@ app.delete('/api/users/:id', (req, res) => {
 //     //delete user with id
 //     res.json({status: pending});
 //    });
+
 
 
 
