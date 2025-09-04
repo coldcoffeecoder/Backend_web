@@ -1,0 +1,21 @@
+REST API- JSON
+
+GET /users - list all users- HTML document render //it will not show json data
+GET/api/users - list all users -it will show json data
+
+//use api/users 
+
+GET /users/1- GET the users with ID 1
+GET /users/2 - GET the users with ID 2
+
+Dynamic Path parameters
+GET /api/users/:id
+:id->variable | Dynamic
+
+POST /users - create new users
+
+PATCH /users/1 - edit the user with ID 1
+
+DELETE /users/1 - delete the user with ID 2
+
+MOCKARO>COM-> this is a website that generates fake data for testing purpose
