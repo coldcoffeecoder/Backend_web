@@ -1,0 +1,6 @@
+HTTP headers are an important part of the API req and res as they represent the meta-data(data about data) associated with the API req and res
+
+headers carry info for the req and res body
+
+HTTP header is a field of an HTTP req or res that passes additional contextf and metadata about the req or res
+
