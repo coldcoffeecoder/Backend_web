@@ -1,0 +1,18 @@
+HTTP response status codes indicate whether a specific HTTP request has been successfully completed.
+
+Responses are grouped in five classes:
+
+1. informational response 100-199
+2. successful response 200-299
+3. redirection response 300-399
+4. client error response 400-499
+5. server error response 500-599
+
+201 is for created-> the request succeeded, and a new resource was created as a result. this is typically the response sent adter POST reqs or some PUT reqs
+
+202 is for accepected
+
+204->no content
+
+->nodemon 
+npm i nodemon-> if theres any change in the file...it restarts the server automatically without us giving command
